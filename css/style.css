@@ -1,0 +1,236 @@
+html {
+	height: 100%;
+	width: 100%;
+}
+
+body {
+	padding: 0;
+}
+
+body, .content-container-outer {
+	height: 100%;
+	width: 100%;
+	background-color: #f5f5f5 !important;
+}
+
+.navbar {
+	border-radius: 5px;
+	border-bottom-right-radius: 0;
+	border-bottom-left-radius: 0;
+	border: 0;
+	border-bottom: 1px solid black;
+	/*margin-top: 1%;*/
+	background-color: #f5f5f5;
+	margin-bottom: 0;
+	padding: 15px;
+}
+
+.navbar-header button {
+	border: 0;
+	background-color: #f5f5f5;
+}
+
+.icon-bar {
+	background-color: black !important;
+}
+
+@media all and (min-width: 950px) {
+    #occupation {
+		margin-left: -20px !important;
+		color: #800 !important;
+		font-size: 1em;
+	}
+	.navbar {
+		padding-right: 80px;
+		padding-left: 80px;
+	}
+}
+
+@media all and (max-width: 950px) {
+    #occupation {
+		display: none;
+	}
+	.navbar {
+		padding-right: 20px;
+		padding-left: 20px;
+	}
+}
+
+.navbar-brand {
+	font-size: 2em;
+}
+
+.nav li a, .navbar-brand {
+	font-family: 'Montserrat';
+	font-weight: bold;
+	color: black !important;
+}
+
+.nav li a span {
+	padding-right: 1em;
+	color: #800;
+}
+
+.content-container-outer {
+	padding: 0;
+}
+
+.content-container {
+	width: 100%;
+	height: 100% !important;
+	padding: 0;
+	background-color: transparent;
+}
+
+.content-container-inner {
+	padding-top: 20px;
+	height: 100% auto !important;
+}
+
+.content-container h3 {
+	font-family: 'Montserrat';
+	font-weight: bold;
+	font-size: 1.5em;
+	color: #800;
+}
+
+.content-container h2 {
+	margin-top: 0px;
+	padding-bottom: 10px;
+	text-align: center;
+	font-family: 'Roboto Slab';
+	font-weight: bold;
+	font-size: 2.25em;
+	color: black;
+}
+
+.content-container p {
+	font-family: 'Roboto Slab';
+	font-size: 1em;
+}
+
+.games-container {
+	margin-left: 0;
+	margin-right: 0;
+	padding-bottom: 20px;
+}
+
+.games-container h2 {
+	margin-top: 0;
+}
+
+
+.content-container ul {
+	padding-left: 20px;
+}
+
+.gameDetail {
+	font-family: 'Montserrat' !important;
+	line-height: 1;
+}
+
+.extLinks, .gameInfo {
+	font-family: 'Montserrat';
+	font-weight: bold;
+	color: #800;
+	padding-right: 2px;
+}
+
+#skillName {
+	font-family: 'Montserrat';
+	font-weight: bold;
+	font-size: 1em;
+	text-align: left;
+	padding-bottom: 5px;
+}
+
+.progress-bar {
+	margin-top: 5px;
+	height: 10px;
+	border-radius: 0;
+	background-color: #800;
+	vertical-align: middle;
+}
+
+@media all and (min-width: 500px) {
+	.progress-bar {
+		width: 90%;
+	}
+}
+
+@media all and (max-width: 500px) {
+	.progress-bar {
+		width: 85%;
+	}
+}
+
+.progress {
+	height: 100% auto;
+	border-radius: 0;
+    box-shadow: none;
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.progress strong {
+	padding-left: 10px;
+}
+
+#skillValue {
+	background-color: red;
+	width: 1%;
+}
+
+
+
+hr {
+	border-color: #800;
+}
+
+.footer-container {
+	margin-top: 2.5%;
+	font-family: 'Montserrat';
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-left: 0 !important;
+	margin-right: 0 !important;
+	background-color: #f5f5f5;
+	border-top: 1px solid #800;
+}
+
+
+
+
+/* CAROUSEL CSS */
+
+.carousel .list-inline {
+    white-space:nowrap;
+    overflow-x:auto;
+}
+
+.carousel .carousel-indicators {
+    position: static;
+    left: initial;
+    width: initial;
+    margin-left: initial;
+    margin-top: 5px;
+}
+
+.carousel .carousel-indicators > li {
+    width: initial;
+    height: initial;
+    text-indent: initial;
+    padding: 0;
+    border-radius: 0;
+    margin-right: 20px;
+}
+
+.carousel .carousel-indicators > li.active img {
+    opacity: 0.7;
+}
+
+.list-inline-item a img {
+	max-height: 80px;
+	max-width: 80px;
+}
