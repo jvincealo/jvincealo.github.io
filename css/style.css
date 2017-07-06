@@ -62,13 +62,18 @@ body, .content-container-outer {
 
 .nav li a, .navbar-brand {
 	font-family: 'Montserrat';
-	font-weight: bold;
+	/*font-weight: bold;*/
 	color: black !important;
 }
 
 .nav li a span {
-	padding-right: 1em;
+	font-size: 1.25em;
+	padding-right: 0.5em;
 	color: #800;
+}
+
+.nav li a span, .nav li a em {
+	vertical-align: middle;
 }
 
 .content-container-outer {
@@ -89,7 +94,7 @@ body, .content-container-outer {
 
 .content-container h3 {
 	font-family: 'Montserrat';
-	font-weight: bold;
+	/*font-weight: bold;*/
 	font-size: 1.5em;
 	color: #800;
 }
@@ -99,8 +104,8 @@ body, .content-container-outer {
 	padding-bottom: 10px;
 	text-align: center;
 	font-family: 'Roboto Slab';
-	font-weight: bold;
-	font-size: 2.25em;
+	/*font-weight: bold;*/
+	font-size: 2em;
 	color: black;
 }
 
@@ -131,14 +136,14 @@ body, .content-container-outer {
 
 .extLinks, .gameInfo {
 	font-family: 'Montserrat';
-	font-weight: bold;
+	/*font-weight: bold;*/
 	color: #800;
 	padding-right: 2px;
 }
 
 #skillName {
 	font-family: 'Montserrat';
-	font-weight: bold;
+	/*font-weight: bold;*/
 	font-size: 1em;
 	text-align: left;
 	padding-bottom: 5px;
