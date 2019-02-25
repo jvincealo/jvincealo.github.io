@@ -37,7 +37,7 @@ body, .content-container-outer {
 @media all and (min-width: 950px) {
     #occupation {
 		margin-left: -20px !important;
-		color: #800 !important;
+		color: rgb(22, 169, 242) !important;
 		font-size: 1em;
 	}
 	.navbar {
@@ -69,7 +69,7 @@ body, .content-container-outer {
 .nav li a span {
 	font-size: 1.25em;
 	padding-right: 0.5em;
-	color: #800;
+	color: rgb(22, 169, 242);
 }
 
 .nav li a span, .nav li a em {
@@ -96,7 +96,7 @@ body, .content-container-outer {
 	font-family: 'Montserrat';
 	/*font-weight: bold;*/
 	font-size: 1.5em;
-	color: #800;
+	color: rgb(22, 169, 242);
 }
 
 .content-container h2 {
@@ -137,7 +137,7 @@ body, .content-container-outer {
 .extLinks, .gameInfo {
 	font-family: 'Montserrat';
 	/*font-weight: bold;*/
-	color: #800;
+	color: rgb(22, 169, 242);
 	padding-right: 2px;
 }
 
@@ -153,7 +153,7 @@ body, .content-container-outer {
 	margin-top: 5px;
 	height: 10px;
 	border-radius: 0;
-	background-color: #800;
+	background-color: rgb(22, 169, 242);
 	vertical-align: middle;
 }
 
@@ -175,6 +175,7 @@ body, .content-container-outer {
     box-shadow: none;
     position: relative;
     margin-bottom: 15px;
+    background-color: #f5f5f5 !important;
 }
 
 .progress strong {
@@ -182,14 +183,14 @@ body, .content-container-outer {
 }
 
 #skillValue {
-	background-color: red;
+	background-color: blue;
 	width: 1%;
 }
 
 
 
 hr {
-	border-color: #800;
+	border-color: rgb(22, 169, 242);
 }
 
 .footer-container {
@@ -201,7 +202,7 @@ hr {
 	margin-left: 0 !important;
 	margin-right: 0 !important;
 	background-color: #f5f5f5;
-	border-top: 1px solid #800;
+	border-top: 1px solid rgb(22, 169, 242);
 }
 
 
